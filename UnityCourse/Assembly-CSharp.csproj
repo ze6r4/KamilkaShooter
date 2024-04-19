@@ -62,10 +62,13 @@
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\AccessoryWearLogic.cs" />
+    <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
+    <Compile Include="Assets\CharacterScripts\Move2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
+    <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShader.shader" />
     <None Include="Assets\Game Buffs\Free Stylized Textures\README.txt" />
     <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShaderLighting.cginc" />

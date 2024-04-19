@@ -3009,6 +3009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1378172779303584491, guid: fd2de4bd876f4ac4980370e624362931, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 2994531682042415193, guid: fd2de4bd876f4ac4980370e624362931, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -17274,7 +17278,7 @@ PrefabInstance:
     - target: {fileID: 7513152564707746676, guid: 9854bb05e98038145add8ed7c25af4b1, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 7ad14465420279a4485be45653e0f1fe, type: 2}
+      objectReference: {fileID: 9100000, guid: c1057765b42e757418697c832705d4c8, type: 2}
     - target: {fileID: 7728861979888275171, guid: 9854bb05e98038145add8ed7c25af4b1, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -19424,6 +19428,8 @@ MonoBehaviour:
   speed: 5
   rotationSpeed: 150
   jumpForce: 5
+  smoothBlend: 0.1
+  isGrounded: 0
 --- !u!1 &2086590301 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7779381877309823848, guid: 2f6c4572e07a60b43b00e1c4f489a806, type: 3}

@@ -58,29 +58,28 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GhostDie.cs" />
-    <Compile Include="Assets\Scripts\Player\Attack.cs" />
-    <Compile Include="Assets\Scripts\ENEMIES\CharacterStateBase.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\HealGeneration.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\PLAYER\Attack.cs" />
+    <Compile Include="Assets\GhostInisialize.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\Zoom.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\AccessoryLogic.cs" />
-    <Compile Include="Assets\Scripts\HealThing.cs" />
-    <Compile Include="Assets\EnemyWalk.cs" />
-    <Compile Include="Assets\Scripts\ENEMIES\GhostHealth.cs" />
-    <Compile Include="Assets\Scripts\ENEMIES\GhostIdle.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\ENEMIES\GhostHealth.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\PlayerSettings.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\ENEMIES\GhostIdle.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\WeaponSettings.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
-    <Compile Include="Assets\Scripts\CoolDown.cs" />
-    <Compile Include="Assets\Scripts\ENEMIES\GhostAttack.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\PLAYER\Move2.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
-    <Compile Include="Assets\Scripts\HealGeneration.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\CoolDown.cs" />
     <Compile Include="Assets\GhostCharacter_Free\Scripts\GhostScript.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\AccessoryWearLogic.cs" />
-    <Compile Include="Assets\Scripts\Zoom.cs" />
-    <Compile Include="Assets\Scripts\PlayerSettings.cs" />
-    <Compile Include="Assets\Scripts\Menu.cs" />
-    <Compile Include="Assets\EnemyAttack.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\ENEMIES\CharacterStateBase.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\ENEMIES\GhostAttack.cs" />
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
-    <Compile Include="Assets\Scripts\ENEMIES\GhostCatch.cs" />
-    <Compile Include="Assets\EnemyIdle.cs" />
-    <Compile Include="Assets\Scripts\Player\Move2.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\Menu.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\HealThing.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\ENEMIES\GhostCatch.cs" />
+    <Compile Include="Assets\ALLSCRIPTS\EnemySettings.cs" />
     <Compile Include="Assets\Magic.cs" />
   </ItemGroup>
   <ItemGroup>
